@@ -1,0 +1,137 @@
+body{ 
+    font-family:'Roboto', sans-serif;
+}
+header ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin: 30px;
+    margin-bottom: 15px;
+}
+
+header{
+    background-image: url(images/1.webp);
+    background-position: inherit;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 700px;
+}
+
+header a {
+    text-decoration:none;
+    color: rgb(26, 97, 119);
+    cursor: alias; 
+    text-align: center; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header a:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+header a:active{
+    color: red;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+h2{
+    text-align: center;
+    font-size: 29px;
+}
+.hediv{
+    margin-top: 150px;
+    background-color: rgba(255, 182, 193, 0.377);
+    background-position: center; 
+    font-family: 'Times New Roman', Times, serif; 
+}
+nav{
+    text-align: center;
+}
+.stilimyst{
+    margin: 50px;
+}
+.container-sm{
+    max-width: 800px;
+}
+.ovr {
+    background-image: url(images/realizm.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    height: 600px;
+    max-width: 100%;
+}
+.ovr {
+    margin: 15px;
+    margin-bottom: 30px;
+}
+.overlay1{
+    opacity: 0;
+    display: block;
+    text-align: center;
+    margin-top: 250px;
+    color: ivory;
+}
+.ovr:hover .overlay1 {
+    opacity: 1;
+    transition: opacity 4s;
+  }
+footer div ul li{
+    align-items: center;
+    list-style-type: none;
+    margin: 30px;
+    margin-bottom: 15px;
+}
+footer div ul {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+footer{
+    background-color: rgb(133, 84, 84);
+}
+footer a{
+    color: rgb(51, 161, 204);
+}
+footer a:active{
+    color: red;
+}
+.bio {
+    color: wheat;
+    text-align: center;
+    margin: 15px;
+}
+.logo{
+    background-image: url(images/logo.jpg);
+    background-position: inherit;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.shake :hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  } 
